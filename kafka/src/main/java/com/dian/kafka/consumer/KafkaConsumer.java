@@ -12,7 +12,17 @@ public class KafkaConsumer {
 
     @KafkaListener(topics = {"test"},groupId="one")
     public void receiveMsg(String msg){
-        logger.info("consume Msg : {} " , msg);
+        logger.info("receiveMsg consume Msg : {} " , msg);
+    }
+
+    @KafkaListener(topics = {"test"},groupId="one")
+    public void receiveMsgO(String msg){
+        logger.info("receiveMsgO consume Msg : {} " , msg);
+    }
+
+    @KafkaListener(topics = {"test"},groupId="two")
+    public void receiveMsgT(String msg){
+        logger.info("receiveMsgT consume Msg : {} " , msg);
     }
 
 
