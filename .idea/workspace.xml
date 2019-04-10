@@ -259,6 +259,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CustomerApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.KafkaApplication" />
+      <item itemvalue="Spring Boot.ProviderApplication" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
