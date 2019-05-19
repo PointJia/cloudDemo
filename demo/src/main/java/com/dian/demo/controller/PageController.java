@@ -12,10 +12,4 @@ public class PageController {
     public String index(){
         return "page/index";
     }
-
-    @GetMapping(value = "/indexJSP")
-    public String indexJSP(){
-        return "page/indexJSP";
-    }
-
 }
