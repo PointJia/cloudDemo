@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/spring-kafka/src/main/java/com/dian/comp/KafkaComp.java" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloudDemo" target="1.5" />
+      <module name="customer" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="kafka" target="1.8" />
+      <module name="provider" target="1.8" />
+      <module name="spring" target="1.7" />
+      <module name="spring-kafka" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="customer" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="kafka" options="-parameters" />
+      <module name="provider" options="-parameters" />
+      <module name="spring-kafka" options="-verbose -bootclasspath D:\ProgramFiles\Java\jdk1.8.0_121/jre/lib/rt.jar -extdirs D:\GIT@OSC\cloudDemo\spring-kafka/src/main/webapp/WEB-INF/lib" />
+    </option>
+  </component>
+</project>
