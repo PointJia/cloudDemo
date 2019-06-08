@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>INDEX</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="static/jquery-3.3.1.min.js"></script>
+    <script src="static/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/bootstrap/css/bootstrap.min.css"/>
+</head>
+<body>
+<div id="app">
+
+</div>
+<script>
+    var content = "";
+    for (var i = 0; i < 113; i++) {
+        content += "<img src=\"static/img/15/"+i+".jpg\"/>";
+    }
+    $("#app").append(content)
+</script>
+</body>
+</html>
