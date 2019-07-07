@@ -10,11 +10,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
+        <module name="dubbo" />
+        <module name="dubbo-provider" />
+        <module name="dubo-customer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloudDemo" target="1.5" />
       <module name="customer" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="dubbo" target="1.5" />
+      <module name="dubbo-provider" target="1.8" />
+      <module name="dubo-customer" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="kafka" target="1.8" />
       <module name="provider" target="1.8" />
@@ -26,6 +33,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="customer" options="-parameters" />
       <module name="demo" options="-parameters" />
+      <module name="dubbo-provider" options="-parameters" />
+      <module name="dubo-customer" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="kafka" options="-parameters" />
       <module name="provider" options="-parameters" />

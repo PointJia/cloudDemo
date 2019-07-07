@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5bfb93e-8682-4d95-8f70-c8961edcd870" name="Default Changelist" comment="" />
+    <list default="true" id="e5bfb93e-8682-4d95-8f70-c8961edcd870" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/dian/demo/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/dian/demo/controller/PageController.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka/target/" />
     <ignored path="$PROJECT_DIR$/provider/target/" />
@@ -10,53 +16,124 @@
     <ignored path="$PROJECT_DIR$/spring-kafka/target/" />
     <ignored path="$PROJECT_DIR$/spring/target/" />
     <ignored path="$PROJECT_DIR$/demo/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
+    <ignored path="$PROJECT_DIR$/dubo-customer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/cloudDemo$DuboCustomerApplication.ic" NAME="DuboCustomerApplication Coverage Results" MODIFIED="1562479941026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/dubo-customer/src/main/java/com/dian/dubocustomer/config/CustomerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/pom.xml">
+        <entry file="file://$PROJECT_DIR$/dubo-customer/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/templates/page/index.html">
+        <entry file="file://$PROJECT_DIR$/dubo-customer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="321">
+              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="52" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-provider/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubo-customer/src/main/java/com/dian/dubocustomer/controller/CustomerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/dian/dubbo/service/DemoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/dian/dubboprovider/service/DemoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/dian/demo/controller/PageController.java">
+        <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/dian/dubbo/entity/EventInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="169">
+              <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/ProgramFiles/Java/jdk1.8.0_121/src.zip!/java/sql/Date.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1245">
+              <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubo-customer/src/main/java/com/dian/dubocustomer/DuboCustomerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -68,12 +145,13 @@
       <list>
         <option value="HTML File" />
         <option value="JavaFXApplication" />
-        <option value="spring-beans.schema" />
-        <option value="FxmlFile" />
-        <option value="Interface" />
-        <option value="Class" />
         <option value="JSP" />
         <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="XSLT Stylesheet" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -81,6 +159,7 @@
     <findStrings>
       <find>/img</find>
       <find>teacher</find>
+      <find>static-locations</find>
     </findStrings>
     <replaceStrings>
       <replace>/img/teacher</replace>
@@ -93,19 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka/src/main/java/com/demo/eureka/EurekaApplication.java" />
-        <option value="$PROJECT_DIR$/eureka/src/main/java/com/demo/eureka/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/eureka/src/main/java/com/demo/eureka/controller/EurekaController.java" />
-        <option value="$PROJECT_DIR$/eureka/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/provider/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/provider/src/main/java/com/demo/provider/ProviderController.java" />
-        <option value="$PROJECT_DIR$/provider/src/main/java/com/demo/provider/controller/ProviderController.java" />
-        <option value="$PROJECT_DIR$/provider/src/main/java/com/demo/provider/ProviderApplication.java" />
-        <option value="$PROJECT_DIR$/customer/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/customer/src/main/java/com/demo/customer/service/ProviderService.java" />
-        <option value="$PROJECT_DIR$/customer/src/main/java/com/demo/customer/CustomerApplication.java" />
-        <option value="$PROJECT_DIR$/customer/src/main/java/com/demo/customer/controller/CustomerController.java" />
         <option value="$PROJECT_DIR$/kafka/pom.xml" />
         <option value="$PROJECT_DIR$/kafka/src/main/java/com/dian/kafka/controller/KafkaController.java" />
         <option value="$PROJECT_DIR$/kafka/src/main/resources/application.properties" />
@@ -138,6 +204,25 @@
         <option value="$PROJECT_DIR$/demo/src/main/resources/templates/page/new.html" />
         <option value="$PROJECT_DIR$/demo/src/main/resources/templates/page/newI.html" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/dian/demo/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/resources/config/dubbo-provider.xml.fxml" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/resources/config/dubbo-provider.xml.xsl" />
+        <option value="$PROJECT_DIR$/dubbo/src/main/java/com/dian/dubbo/service/DemoService.java" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/dian/controller/ProviderController.java" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/dian/service/DemoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/dian/dubboprovider/DubboProviderApplication.java" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/dian/dubboprovider/controller/ProviderController.java" />
+        <option value="$PROJECT_DIR$/dubo-customer/src/main/resources/conf/dubbo-customer.xml" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/dian/dubboprovider/service/DemoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/dian/dubboprovider/config/ProviderConfig.java" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/resources/config/dubbo-provider.xml" />
+        <option value="$PROJECT_DIR$/dubo-customer/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dubo-customer/src/main/java/com/dian/dubocustomer/config/ProviderConfig.java" />
+        <option value="$PROJECT_DIR$/dubo-customer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dubo-customer/src/main/java/com/dian/dubocustomer/controller/CustomerController.java" />
+        <option value="$PROJECT_DIR$/dubbo/src/main/java/com/dian/dubbo/entity/EventInfo.java" />
       </list>
     </option>
   </component>
@@ -189,8 +274,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="598" />
-    <option name="width" value="1322" />
+    <option name="x" value="960" />
+    <option name="width" value="960" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -203,7 +288,22 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubo-customer" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,28 +319,34 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559971641217" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo/src/main/resources/templates" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562495501905" />
+    <property name="last_opened_file_path" value="E:/Dubbo/dubbo-2.5.10/META-INF/dubbo.xsd" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15527344" />
-    <property name="project.structure.side.proportion" value="0.5132948" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="project.structure.side.proportion" value="0.35305163" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GIT@OSC\cloudDemo\demo\src\main\resources\templates\page\img" />
+      <recent name="D:\GIT@OSC\cloudDemo\demo\src\main\resources\static\img\teacher" />
+      <recent name="D:\GIT@OSC\cloudDemo\demo\src\main\resources\static\bootstrap\js" />
+      <recent name="D:\GIT@OSC\cloudDemo\demo\src\main\resources\static\bootstrap\css" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.dian.dubboprovider" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dian.dubocustomer.config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GIT@OSC\cloudDemo\demo\src\main\resources\templates\page" />
       <recent name="D:\GIT@OSC\cloudDemo\demo\src\main\resources\static\img" />
       <recent name="D:\GIT@OSC\cloudDemo\demo\src\main\resources\static\img\new" />
       <recent name="D:\GIT@OSC\cloudDemo\demo\target\classes\static\img" />
       <recent name="D:\GIT@OSC\cloudDemo\demo\src\main\resources\static" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GIT@OSC\cloudDemo\demo\src\main\resources\templates\page\img" />
-      <recent name="D:\GIT@OSC\cloudDemo\demo\src\main\resources\static\img\teacher" />
-      <recent name="D:\GIT@OSC\cloudDemo\demo\src\main\resources\static\bootstrap\js" />
-      <recent name="D:\GIT@OSC\cloudDemo\demo\src\main\resources\static\bootstrap\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -255,7 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoApplication">
+  <component name="RunManager" selected="Spring Boot.DuboCustomerApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -335,6 +441,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DubboProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dian.dubboprovider.DubboProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DuboCustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubo-customer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dian.dubocustomer.DuboCustomerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.eureka.EurekaApplication" />
@@ -379,6 +499,8 @@
       <item itemvalue="Spring Boot.KafkaApplication" />
       <item itemvalue="Spring Boot.ProviderApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.DubboProviderApplication" />
+      <item itemvalue="Spring Boot.DuboCustomerApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -421,16 +543,18 @@
       <workItem from="1559910291957" duration="1823000" />
       <workItem from="1559959357746" duration="764000" />
       <workItem from="1559970803069" duration="821000" />
+      <workItem from="1562390809147" duration="3572000" />
+      <workItem from="1562468203547" duration="10566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79732000" />
+    <option name="totallyTimeSpent" value="93870000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="598" y="0" width="1322" height="1050" extended-state="0" />
+    <frame x="960" y="0" width="960" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25515056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18888889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -439,9 +563,9 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3279743" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.261723" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32715377" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4711014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -449,10 +573,11 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.4242094" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3293348" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3816794" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32919767" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -505,165 +630,9 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kafka/src/main/java/com/dian/kafka/common/util/TimeUtile.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.1.5.RELEASE/spring-messaging-5.1.5.RELEASE.jar!/org/springframework/messaging/Message.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.4.RELEASE/spring-kafka-2.2.4.RELEASE.jar!/org/springframework/kafka/annotation/KafkaListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="47" column="23" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka/src/main/java/com/dian/kafka/consumer/KafkaConsumer.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.1/kafka-clients-2.0.1.jar!/org/apache/kafka/clients/producer/KafkaProducer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="464" column="65" selection-start-line="464" selection-start-column="50" selection-end-line="464" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.1/kafka-clients-2.0.1.jar!/org/apache/kafka/clients/producer/ProducerRecord.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.1/kafka-clients-2.0.1-sources.jar!/org/apache/kafka/clients/producer/KafkaProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="914" column="31" selection-start-line="914" selection-start-column="31" selection-end-line="914" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.1/kafka-clients-2.0.1-sources.jar!/org/apache/kafka/clients/producer/ProducerRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="106" column="11" selection-start-line="106" selection-start-column="11" selection-end-line="106" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.4.RELEASE/spring-kafka-2.2.4.RELEASE.jar!/org/springframework/kafka/core/KafkaTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="270" selection-start-line="270" selection-end-line="270" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.4.RELEASE/spring-kafka-2.2.4.RELEASE-sources.jar!/org/springframework/kafka/core/KafkaTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="357" column="49" selection-start-line="357" selection-start-column="49" selection-end-line="357" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka/src/main/java/com/dian/kafka/provider/KafkaProvider.java" />
-    <entry file="file://$PROJECT_DIR$/eureka/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/kafka/src/main/java/com/dian/kafka/KafkaApplication.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="65" column="24" lean-forward="true" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/2.1.4.RELEASE/spring-boot-test-2.1.4.RELEASE.jar!/org/springframework/boot/test/context/SpringBootTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/test/java/com/dian/demo/DemoApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar!/org/thymeleaf/spring5/view/ThymeleafView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="162" column="43" lean-forward="true" selection-start-line="162" selection-start-column="43" selection-end-line="162" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
-          <folding>
-            <element signature="e#5068#5069#0" expanded="true" />
-            <element signature="e#5117#5118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/static/bootstrap/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/ResourceProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="68" column="65" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/mybatis/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/dian/demo/entity/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/mybatis/mapper/event-mapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/mybatis/mybatis-config.xml" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/dian/demo/entity/Event.java" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/mybatis/mapper/event-mapper.xml" />
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/dian/demo/controller/RunController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -682,19 +651,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/resources/static/jquery-1.7.2.min.js" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/static/jquery-3.3.1.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/target/classes/mybatis/mapper/event-mapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/static/img/teacher/11.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/static/jquery-3.3.1.min.js" />
+    <entry file="file://$PROJECT_DIR$/demo/target/classes/mybatis/mapper/event-mapper.xml" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/static/img/teacher/11.jpg" />
     <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.15/mysql-connector-java-8.0.15.jar!/com/mysql/cj/jdbc/ConnectionImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17518">
@@ -702,17 +661,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/dian/demo/service/impl/EventServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/dian/demo/service/impl/EventServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/dian/demo/DemoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -720,52 +669,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/dian/demo/dao/EventDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/dian/demo/dao/EventDao.java" />
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/dian/demo/common/result/SuccessResult.java" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/dian/demo/service/EventService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/dian/demo/common/result/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding>
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#972#973#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/dian/demo/service/EventService.java" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/dian/demo/common/result/Result.java" />
     <entry file="file://$PROJECT_DIR$/demo/src/main/resources/static/img/15/更多福利/X站导航.txt" />
-    <entry file="file://$PROJECT_DIR$/demo/target/classes/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/target/classes/application.properties" />
     <entry file="file://$PROJECT_DIR$/demo/src/main/resources/templates/page/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/templates/page/img/teacher.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="24" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/templates/page/img/teacher.html" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/templates/page/img/wind.html" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/templates/page/new.html" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/templates/page/img/newI.html" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/dian/demo/controller/EventController.java" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/templates/page/img/new.html" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/dian/demo/common/result/ResultUtil.java" />
     <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -773,17 +690,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/templates/page/img/wind.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -794,54 +704,186 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/templates/page/new.html">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/templates/page/img/newI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/dian/demo/controller/EventController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/templates/page/img/new.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/dian/demo/common/result/ResultUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/dian/demo/controller/PageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#339#340#0" expanded="true" />
             <element signature="e#374#375#0" expanded="true" />
             <element signature="e#442#443#0" expanded="true" />
             <element signature="e#480#481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/resources/config/dubbo-provider.xml.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/resources/config/dubbo-provider.xml.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/dian/dubboprovider/controller/ProviderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/dian/dubboprovider/DubboProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE.jar!/org/springframework/boot/autoconfigure/web/ResourceProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="39" column="59" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/resources/config/dubbo-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubo-customer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubo-customer/src/main/java/com/dian/dubocustomer/DuboCustomerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/dian/dubboprovider/config/ProviderConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubo-customer/src/main/java/com/dian/dubocustomer/config/CustomerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubo-customer/src/main/resources/config/dubbo-customer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubo-customer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/dian/dubbo/service/DemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubo-customer/src/main/java/com/dian/dubocustomer/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/dian/dubboprovider/service/DemoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8.0_121/src.zip!/java/sql/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1245">
+          <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/src/main/java/com/dian/dubbo/entity/EventInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -900,11 +942,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|demo</last-edited>
+          <last-edited>dubbo-provider</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.18122065" />
+                <option value="0.35305163" />
               </list>
             </option>
           </splitter-proportions>
