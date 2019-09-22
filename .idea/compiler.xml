@@ -9,6 +9,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="axios" />
+        <module name="common" />
         <module name="customer" />
         <module name="demo" />
         <module name="dubbo" />
@@ -23,15 +25,21 @@
         <module name="spring-kafka" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="oamanager" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="axios" options="-parameters" />
+      <module name="common" options="-parameters" />
       <module name="customer" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="dubbo-provider" options="-parameters" />
       <module name="dubo-customer" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="kafka" options="-parameters" />
+      <module name="oamanager" options="-parameters" />
       <module name="oauthserver" options="-parameters" />
       <module name="provider" options="-parameters" />
       <module name="rabbit" options="-parameters" />

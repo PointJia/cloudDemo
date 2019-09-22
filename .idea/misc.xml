@@ -20,6 +20,8 @@
         <option value="$PROJECT_DIR$/oauthserver/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit/pom.xml" />
         <option value="$PROJECT_DIR$/spring-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/axios/pom.xml" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
       </list>
     </option>
   </component>
