@@ -9,10 +9,6 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>spring-kafka</module>
-        <module>spring-kafka</module>
-        <module>spring-kafka</module>
-        <module>spring-kafka</module>
         <module>spring</module>
     </modules>
 

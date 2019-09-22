@@ -9,24 +9,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloudDemo" />
         <module name="customer" />
+        <module name="demo" />
+        <module name="dubbo" />
+        <module name="dubbo-provider" />
+        <module name="dubo-customer" />
         <module name="eureka" />
         <module name="kafka" />
+        <module name="oauthserver" />
         <module name="provider" />
+        <module name="rabbit" />
+        <module name="spring" />
+        <module name="spring-kafka" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="kafka" target="1.8" />
-      <module name="spring" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="customer" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="dubbo-provider" options="-parameters" />
+      <module name="dubo-customer" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="kafka" options="-parameters" />
+      <module name="oauthserver" options="-parameters" />
       <module name="provider" options="-parameters" />
+      <module name="rabbit" options="-parameters" />
+      <module name="spring-kafka" options="-verbose -bootclasspath D:\ProgramFiles\Java\jdk1.8.0_121/jre/lib/rt.jar -extdirs D:\GIT@OSC\cloudDemo\spring-kafka/src/main/webapp/WEB-INF/lib" />
     </option>
   </component>
 </project>
