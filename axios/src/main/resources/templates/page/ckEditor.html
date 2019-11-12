@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+    .ck-content {
+        min-height: 400px;
+    }
+</style>
+</head>
+<body>
+<div id="editor"></div>
+
+<button onclick="save()">SAVE</button>
+
+<script type="text/javascript" src="/static/ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+<script>
+    let myEditor;
+    ClassicEditor
+        .create( document.querySelector( '#editor' ),{
+            ckfinder:{
+                uploadUrl : "/img/upload"
+            },
+            image:{
+                styles:["full","alignLeft","alignRight","alignCenter"],
+                toolbar:["imageStyle:full","|","imageStyle:alignLeft","imageStyle:alignCenter","imageStyle:alignRight","|","imageTextAlternative"]
+            }
+        })
+        .then( editor => {
+            myEditor = editor;
+        })
+        .catch( error => {
+            console.error( error );
+        });
+
+    function save() {
+        console.log(myEditor.getData());
+        jQuery.ajax({
+            url:"html/save",
+            data:{content:myEditor.getData()},
+            type:"POST",
+            dataType:"text",
+            success:function (result) {
+                console.log(result)
+            },
+            error:function (err) {
+                console.log(err)
+            }
+        })
+
+
+    }
+</script>
+</body>
+</html>

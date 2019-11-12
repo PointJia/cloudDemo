@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<input type="file" name="img"/>
+<br>
+<span onclick="upload()">上传图片</span>
+<br>
+<span onclick="uploadII()">上传图片II</span>
+<script>
+    // const axios = require('axios');
+    function upload() {
+        alert("上传")
+        let file = document.getElementsByName('img')[0].files[0];
+
+        let formData = new FormData();
+        formData.append("uploadFile",file,file.name);
+
+        const config = {
+            headers: { "Content-Type": "multipart/form-data;boundary="+new Date().getTime() }
+        };
+
+        axios
+            .post("/file/upload",formData,config)
+            .then(function (response) {
+                console.log(response);
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+    }
+
+    function uploadII() {
+        alert("上传")
+        let file = document.getElementsByName('img')[0].files[0];
+
+        let formData = new FormData();
+        formData.append("uploadFile",file,file.name);
+
+        const config = {
+            headers: { "Content-Type": "multipart/form-data;boundary="+new Date().getTime() }
+        };
+
+        axios
+            .post("/file/uploadII",formData,config)
+            .then(function (response) {
+                console.log(response);
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+    }
+
+
+</script>
+
+</body>
+</html>
